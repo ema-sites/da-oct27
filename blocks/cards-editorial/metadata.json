@@ -1,0 +1,19 @@
+{
+  "variantName": "cards-editorial",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Image-top cards with eyebrow, title, text, bottom-aligned outline button",
+    "summary": "Image-top cards with eyebrow, title, text, bottom-aligned outline button"
+  },
+  "contentPattern": {
+    "structure": "one row per card: image cell (optional) | body cell with eyebrow paragraph, H3 title, description, CTA link as the last paragraph",
+    "summary": "3 editorial cards (image, eyebrow, title, description, Learn more link to product page)"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "cards-editorial"
+  ],
+  "usage": "Three-up \"what's new\" editorial cards linking to product pages.",
+  "reuseGuidance": "Reuse when content matches: Image-top cards with eyebrow, title, text, bottom-aligned outline button. Section metadata seen on source: {}. Source: https://business.adobe.com/."
+}

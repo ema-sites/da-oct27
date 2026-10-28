@@ -1,0 +1,47 @@
+.quote-story .quote-story-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.quote-story .quote-story-logo {
+  line-height: 0;
+}
+
+.quote-story .quote-story-logo img {
+  width: auto;
+  max-height: 48px;
+}
+
+.quote-story blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.quote-story .quote-story-quotation p:first-child::before {
+  content: '“';
+}
+
+.quote-story .quote-story-quotation p:last-child::after {
+  content: '”';
+}
+
+.quote-story figcaption cite {
+  font-style: normal;
+}
+
+.quote-story .quote-story-attribution p,
+.quote-story .quote-story-cta p {
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  .quote-story .quote-story-figure {
+    padding: 0 32px;
+  }
+}

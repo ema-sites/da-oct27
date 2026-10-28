@@ -1,0 +1,19 @@
+{
+  "variantName": "cards-masonry",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Text-first rounded white cards in 3+2 masonry grid, optional corner image",
+    "summary": "Text-first rounded white cards in 3+2 masonry grid, optional corner image"
+  },
+  "contentPattern": {
+    "structure": "one row per card: body cell with eyebrow paragraph, H3 title, description, CTA link as the last paragraph | image cell (optional, rendered in the lower corner); cards lay out in rows of three, a trailing two or one stretch to full width",
+    "summary": "5 solution cards (eyebrow, title, description, Explore solutions link; two with image)"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "cards-masonry"
+  ],
+  "usage": "Solution/challenge cards in a 3 + 2 masonry grid on a light-grey section.",
+  "reuseGuidance": "Reuse when content matches: Text-first rounded white cards in 3+2 masonry grid, optional corner image. Section metadata seen on source: {\"style\":\"light-grey\"}. Source: https://business.adobe.com/."
+}

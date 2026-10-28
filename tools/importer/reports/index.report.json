@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://business.adobe.com/",
+  "path": "index",
+  "timestamp": "2026-10-28T01:17:00.855Z",
+  "title": "Adobe for Business | Enterprise Digital Marketing Solutions",
+  "template": "home",
+  "blocks": [
+    "hero-concierge",
+    "columns-ribbon",
+    "cards-editorial",
+    "cards-masonry",
+    "tabs-segmented",
+    "carousel-logos",
+    "quote-story",
+    "columns-promo"
+  ]
+}

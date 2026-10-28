@@ -1,0 +1,19 @@
+{
+  "variantName": "quote-story",
+  "baseBlock": "quote",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Centered customer testimonial with logo, heading, quote, attribution, CTA",
+    "summary": "Centered customer testimonial with logo, heading, quote, attribution, CTA"
+  },
+  "contentPattern": {
+    "structure": "row 1: logo image (optional), heading (optional), quotation paragraph(s); row 2: attribution (italic text becomes a citation) and an optional link-only paragraph such as \"Read the story\"",
+    "summary": "Workday logo, heading, quotation, attribution (Emma Chalwin, CMO, Workday) and Read the story link"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "quote-story"
+  ],
+  "usage": "Single customer testimonial with a link to the full story.",
+  "reuseGuidance": "Reuse when content matches: Centered customer testimonial with logo, heading, quote, attribution, CTA. Section metadata seen on source: {\"style\":\"centered\"}. Source: https://business.adobe.com/."
+}

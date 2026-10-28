@@ -1,0 +1,19 @@
+{
+  "variantName": "tabs-segmented",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Segmented-control tab bar; panels with split media card plus icon product list",
+    "summary": "Segmented-control tab bar; panels with split media card plus icon product list"
+  },
+  "contentPattern": {
+    "structure": "one row per tab: tab label | panel content (H3, paragraph, image, then an H3 such as \"Explore products.\" followed by a list of icon + product links)",
+    "summary": "6 tabs: AI & agents, Content & workflows, Creativity & design, Data & analytics, Campaigns, Documents; each panel has heading, text, image and an Explore products icon list"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "tabs-segmented"
+  ],
+  "usage": "Product categories browsed through a segmented tab bar.",
+  "reuseGuidance": "Reuse when content matches: Segmented-control tab bar; panels with split media card plus icon product list. Section metadata seen on source: {}. Source: https://business.adobe.com/."
+}

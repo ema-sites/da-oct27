@@ -1,0 +1,19 @@
+{
+  "variantName": "columns-ribbon",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Single slim row: logo, inline promo text, button",
+    "summary": "Single slim row: logo, inline promo text, button"
+  },
+  "contentPattern": {
+    "structure": "one row of up to three cells: logo image | promo text | CTA link (each cell optional, classified by content)",
+    "summary": "Adobe MAX logo, promo text and Register now button side by side"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "columns-ribbon"
+  ],
+  "usage": "Slim event/promo announcement strip below the hero.",
+  "reuseGuidance": "Reuse when content matches: Single slim row: logo, inline promo text, button. Section metadata seen on source: {\"style\":\"light-grey\"}. Source: https://business.adobe.com/."
+}

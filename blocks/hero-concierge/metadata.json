@@ -1,0 +1,19 @@
+{
+  "variantName": "hero-concierge",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Photo background hero with AI prompt input and suggested prompt chips",
+    "summary": "Photo background hero with AI prompt input and suggested prompt chips"
+  },
+  "contentPattern": {
+    "structure": "row 1: background image (optional); row 2: eyebrow paragraph, H1 title, subtitle paragraph, prompt placeholder paragraph, bulleted list of suggested prompt links (chips), legal/disclaimer paragraph",
+    "summary": "Eyebrow, title, subtitle, AI prompt input with suggested prompt chips and legal disclaimer over photo background"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "hero-concierge"
+  ],
+  "usage": "Top-of-page hero with a photo background and an AI concierge prompt with suggested questions.",
+  "reuseGuidance": "Reuse when content matches: Photo background hero with AI prompt input and suggested prompt chips. Section metadata seen on source: {}. Source: https://business.adobe.com/."
+}

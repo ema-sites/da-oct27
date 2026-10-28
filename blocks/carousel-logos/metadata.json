@@ -1,0 +1,19 @@
+{
+  "variantName": "carousel-logos",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Horizontal scroller of linked brand logos with prev/next arrows",
+    "summary": "Horizontal scroller of linked brand logos with prev/next arrows"
+  },
+  "contentPattern": {
+    "structure": "one row per logo: linked logo image | optional text (empty cells are dropped)",
+    "summary": "6 customer logos (Coca-Cola, Qualcomm, Premier League, Prudential, Cisco, Home Depot) each linking to a case study, in a scroller with arrows"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "carousel-logos"
+  ],
+  "usage": "Customer logo strip linking to case studies.",
+  "reuseGuidance": "Reuse when content matches: Horizontal scroller of linked brand logos with prev/next arrows. Section metadata seen on source: {\"style\":\"centered\"}. Source: https://business.adobe.com/."
+}

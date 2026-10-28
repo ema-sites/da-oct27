@@ -1,0 +1,19 @@
+{
+  "variantName": "columns-promo",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Two columns: heading and CTA left, product image right",
+    "summary": "Two columns: heading and CTA left, product image right"
+  },
+  "contentPattern": {
+    "structure": "one row of two cells: heading + CTA link | image (image may be in either column)",
+    "summary": "H2 Let’s talk about what Adobe can do for your business. + Get started button beside an image"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "columns-promo"
+  ],
+  "usage": "Closing contact/sales promo on a dark section.",
+  "reuseGuidance": "Reuse when content matches: Two columns: heading and CTA left, product image right. Section metadata seen on source: {\"style\":\"dark\"}. Source: https://business.adobe.com/."
+}

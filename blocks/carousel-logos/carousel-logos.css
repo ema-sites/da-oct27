@@ -1,0 +1,104 @@
+.carousel-logos .carousel-logos-slides-container {
+  position: relative;
+  padding: 0 56px;
+}
+
+.carousel-logos .carousel-logos-slides {
+  display: flex;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.carousel-logos .carousel-logos-slides::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-logos .carousel-logos-slide {
+  display: flex;
+  flex: 0 0 calc((100% - 32px) / 2);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start;
+}
+
+.carousel-logos .carousel-logos-slide-image {
+  line-height: 0;
+}
+
+.carousel-logos .carousel-logos-slide-image img {
+  width: auto;
+  max-width: 100%;
+  max-height: 80px;
+  object-fit: contain;
+}
+
+.carousel-logos .carousel-logos-navigation {
+  position: absolute;
+  inset: 50% 0 auto;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.carousel-logos .carousel-logos-navigation button {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid currentcolor;
+  border-radius: 50%;
+  background: transparent;
+  color: inherit;
+  pointer-events: auto;
+}
+
+.carousel-logos .carousel-logos-navigation button:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.carousel-logos .carousel-logos-navigation button::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: calc(50% + 2px);
+  width: 10px;
+  height: 10px;
+  border: 2px solid;
+  border-bottom: 0;
+  border-left: 0;
+  transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+.carousel-logos .carousel-logos-navigation .carousel-logos-next::after {
+  left: calc(50% - 2px);
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.carousel-logos.carousel-logos-static .carousel-logos-navigation {
+  display: none;
+}
+
+.carousel-logos.carousel-logos-static .carousel-logos-slides {
+  justify-content: center;
+}
+
+@media (width >= 600px) {
+  .carousel-logos .carousel-logos-slide {
+    flex-basis: calc((100% - 64px) / 3);
+  }
+}
+
+@media (width >= 900px) {
+  .carousel-logos .carousel-logos-slide {
+    flex-basis: calc((100% - 128px) / 5);
+  }
+}
