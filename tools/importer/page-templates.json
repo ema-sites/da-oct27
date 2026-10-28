@@ -1,0 +1,14 @@
+{
+  "templates": [
+    {
+      "name": "home",
+      "urls": [
+        "https://business.adobe.com/"
+      ],
+      "representativeUrl": "https://business.adobe.com/",
+      "description": "",
+      "blocks": [],
+      "urlPattern": "/"
+    }
+  ]
+}

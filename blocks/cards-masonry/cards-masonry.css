@@ -1,0 +1,59 @@
+.cards-masonry > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.cards-masonry .cards-masonry-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 16px;
+  background-color: var(--background-color);
+}
+
+.cards-masonry .cards-masonry-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.cards-masonry .cards-masonry-card-image {
+  line-height: 0;
+}
+
+.cards-masonry .cards-masonry-card-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (width >= 900px) {
+  .cards-masonry > ul {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .cards-masonry .cards-masonry-card {
+    grid-column: span 2;
+  }
+
+  .cards-masonry .cards-masonry-card-half {
+    grid-column: span 3;
+  }
+
+  .cards-masonry .cards-masonry-card-full {
+    grid-column: span 6;
+  }
+
+  .cards-masonry .cards-masonry-card-has-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cards-masonry .cards-masonry-card-has-image .cards-masonry-card-image {
+    align-self: end;
+  }
+}

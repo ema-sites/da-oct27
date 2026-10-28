@@ -1,0 +1,27 @@
+.columns-promo .columns-promo-row {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.columns-promo .columns-promo-img-col {
+  line-height: 0;
+}
+
+.columns-promo .columns-promo-img-col img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (width >= 900px) {
+  .columns-promo .columns-promo-row {
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .columns-promo .columns-promo-row > div {
+    flex: 1;
+  }
+}
